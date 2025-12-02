@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mediterranean Falafel Bowl | Eleah’s Recipe Kitchen</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* General headings */
+    main h2 {
+      text-align: center;
+      color: #1b4332;
+      margin-top: 25px;
+    }
+
+    /* Lists styling */
+    main ul, main ol {
+      text-align: left;
+      max-width: 600px;
+      margin: 0 auto 20px auto;
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+
+    /* Side-by-side layout */
+    .recipe-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    /* Left column (video) */
+    .video-column {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Right column (text) */
+    .text-column {
+      flex: 1;
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 800px) {
+      .recipe-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .text-column ul,
+      .text-column ol {
+        text-align: left;
+        margin: 0 auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Mediterranean Falafel Bowl</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="breakfast.html">Breakfast</a>
+      <a href="desserts.html">Desserts</a>
+      <a href="snacks.html">Snacks</a>
+      <a href="protein-bowls.html">Protein Bowls</a>
+    </nav>
+  </header>
+
+  <!-- Recipe Image -->
+  <img src="images/mediterranean-falafel-bowl.jpg" alt="Mediterranean Falafel Bowl" class="recipe-image">
+
+  <main>
+    <div class="recipe-container">
+
+      <!-- Left: TikTok Video -->
+      <div class="video-column">
+        <blockquote class="tiktok-embed"
+          cite="https://www.tiktok.com/@tofuchick/video/7530744110760676622"
+          data-video-id="7530744110760676622"
+          style="max-width: 325px; min-width: 225px;">
+          <section></section>
+        </blockquote>
+      </div>
+
+      <!-- Right: Ingredients + Instructions -->
+      <div class="text-column">
+
+        <h2>Ingredients</h2>
+        <ul>
+          <li>3 falafel patties</li>
+          <li>1/2 cup cooked couscous</li>
+          <li>1/4 cup hummus</li>
+          <li>1/4 cup cucumber, diced</li>
+          <li>1/4 cup tomato, diced</li>
+          <li>Tahini drizzle</li>
+        </ul>
+
+        <h2>Instructions</h2>
+        <ol>
+          <li>Prepare falafel and couscous according to instructions.</li>
+          <li>Arrange couscous, falafel, hummus, and vegetables in a bowl.</li>
+          <li>Drizzle with tahini before serving.</li>
+        </ol>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Eleah’s Recipe Kitchen</p>
+  </footer>
+
+  <!-- TikTok embed script -->
+  <script async src="https://www.tiktok.com/embed.js"></script>
+</body>
+</html>
