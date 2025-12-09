@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oatmeal Cookie | Eleah’s Recipe Kitchen</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    main h2 {
+      text-align: center;
+      color: #1b4332;
+      margin-top: 25px;
+    }
+
+    main ul, main ol {
+      text-align: left;
+      max-width: 600px;
+      margin: 0 auto 20px auto;
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+
+    .recipe-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 20px;
+      flex-wrap: wrap; 
+    }
+
+    .image-wrapper {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .image-wrapper img {
+      display: block;
+      margin: 0 auto;
+      max-width: 700px;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .video-column {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .text-column {
+      flex: 1;
+    }
+
+    @media (max-width: 800px) {
+      .recipe-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .text-column ul,
+      .text-column ol {
+        text-align: left;
+        margin: 0 auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="page-wrapper">
+
+    <header>
+      <h1>Oatmeal Cookie</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="breakfast.html">Breakfast</a>
+        <a href="protein-bowls.html">Protein Bowls</a>
+        <a href="desserts.html">Desserts</a>
+        <a href="snacks.html">Snacks</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="recipe-container">
+
+        <div class="image-wrapper">
+          <img src="images/oatmeal-cookie.jpg" alt="Oatmeal Cookie" class="recipe-image">
+        </div>
+
+        <div class="video-column">
+          <blockquote class="tiktok-embed"
+            cite="https://www.tiktok.com/@tofuchick/video/7286224229337517354"
+            data-video-id="7286224229337517354"
+            style="max-width: 325px; min-width: 225px;">
+            <section></section>
+          </blockquote>
+        </div>
+
+        <div class="text-column">
+          <h2>Ingredients</h2>
+          <ul>
+            <li>1/3 cup oats</li>
+            <li>1/2 mashed banana</li>
+            <li>1 tsp baking powder</li>
+            <li>1/2 scoop protein powder</li>
+            <li>1 tsp vanilla extract</li>
+            <li>1 tbs melted coconut oil</li>
+            <li>1/4 tsp salt</li>
+            <li>Optional: chocolate chips, raisins, or nuts</li>
+          </ul>
+
+          <h2>Instructions</h2>
+          <ol>
+            <li>Preheat airfryer to 350°F (175°C) and line it with parchment paper.</li>
+            <li>Mash banana & mix all the ingredients in a bowl.</li>
+            <li>Fold in chocolate chips or other mix-ins if desired.</li>
+            <li>Scoop dough onto the baking sheet and flatten slightly.</li>
+            <li>Airfry for 10–12 minutes until golden brown.</li>
+            <li>Let cool for 5 minutes before serving.</li>
+          </ol>
+        </div>
+
+      </div>
+    </main>
+
+    <footer>
+      <p>Eleah’s Recipe Kitchen</p>
+    </footer>
+
+  </div>
+
+  <script async src="https://www.tiktok.com/embed.js"></script>
+</body>
+</html>
